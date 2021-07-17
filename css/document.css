@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    background-color: rgba(231, 228, 228, 0.897);
+    color: black;
+}
+
+header {
+    font-size: 25px;
+}
+
+#navbar {
+    position: fixed;
+}
+
+.navbar-elm {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    background-color: whitesmoke;
+    height: 96vh;
+    overflow: auto;
+    color: black;
+    display: block;
+}
+
+.nav-link {
+    display: block;
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    font-size: 16px;
+}
+
+.navbar-header {
+    text-align: center;
+    padding: 15px;
+}
+
+#main-doc {
+    margin: 0px;
+    margin-left: 320px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-elm {
+        position: fixed;
+        width: 250px;
+    }
+
+    #main.doc {
+        margin-left: 260px;
+    }
+}
