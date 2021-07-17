@@ -6,6 +6,8 @@ body {
 
 header {
     font-size: 25px;
+    margin: auto;
+    margin-left: 25px;
 }
 
 #navbar {
@@ -28,6 +30,7 @@ header {
     display: block;
     color: black;
     padding: 15px 16px;
+    margin-left: 20px;
     text-decoration: none;
     list-style-type: none;
     text-align: left;
@@ -36,13 +39,16 @@ header {
 
 .navbar-header {
     text-align: center;
-    padding: 15px;
 }
 
 #main-doc {
-    margin: 0px;
-    margin-left: 320px;
+    margin: auto;
+    margin-left: 335px;
     
+}
+
+.main-section {
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 600px) {
